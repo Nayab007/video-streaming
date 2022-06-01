@@ -1,1 +1,1 @@
- This a Code test for TV4 video streaming Service.
+ This a Code test for TV4 video streaming Service. In this porject i have to fetch video streaming data from API endpoint. This was my first Video streaming Project. 
