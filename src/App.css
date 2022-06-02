@@ -108,6 +108,37 @@ body {
       word-spacing: 2px;
     }
 
+    .videoPlayer {
+      
+      margin-top: 20px;
+      margin-left: 20%;
+      margin-right: 10%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      width: 220px;
+      height: 250px;
+      justify-content: center;
+      cursor: pointer;
+    }
+    
+    
+    
+    
+    .ReactHlsPlayer {
+      display: grid;
+      margin-top: 10px;
+      margin-left: 15%;
+      margin-right: auto;
+      margin-bottom: 20px;
+      border-radius: 10px 10px;
+      width: 250px;
+      height: 250px;
+      justify-content: center;
+      cursor: pointer;
+    
+    }
+    
+
   }
 
 }
