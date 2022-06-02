@@ -102,18 +102,17 @@ body {
 
       padding-right: 80px;
       padding-left: 12px;
-      margin-right: 70px;
-      margin-left: auto;
+      
       font-size: 12px;
       word-spacing: 2px;
     }
 
     .videoPlayer {
       
-      margin-top: 20px;
-      margin-left: 20%;
-      margin-right: 10%;
-      margin-bottom: 20px;
+      margin-top: auto;
+     
+      margin-right: 50px;
+      margin-bottom: auto;
       border-radius: 10px;
       width: 220px;
       height: 250px;
