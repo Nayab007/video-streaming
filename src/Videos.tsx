@@ -8,7 +8,7 @@ interface VideoProps {
   videos: Array<Users>;
 }
 
-export default function Pictures(props: VideoProps) {
+export default function Videos(props: VideoProps) {
   const { videos } = props;
 
   // here we are mapping the list that comes from the props
