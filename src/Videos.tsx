@@ -22,7 +22,7 @@ export default function Videos(props: VideoProps) {
               <h5>{user.name}</h5>
               <h5>{user.description}</h5>
             </div>
-            {/* Video data Links From API endpoint */}
+            {/* Video data Links From API endpoint this video player players the last video*/}
             <div>
               <ShakaPlayer
                 className="videoPlayer"
