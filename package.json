@@ -43,8 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "react-video-js-player": "^1.1.1",
-    "video.js": "^7.19.2"
-  }
+  "devDependencies": {}
 }
