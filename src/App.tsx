@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Videos from './Videos';
-import fetchVideos from './services/fetchPictures';
+import fetchVideos from './services/fetchVideoss';
 import ReactHlsPlayer from 'react-hls-player';
 
 import './App.css';
 
-export interface Users {
+export interface Movies {
   id: number;
   name: string;
   description: string;
@@ -18,7 +18,7 @@ export interface Users {
 }
 
 export default function App() {
-  const [videos, setVideos] = useState<Array<Users>>([]);
+  const [videos, setVideos] = useState<Array<Movies>>([]);
   const [page] = useState<number>(1);
 
   useEffect(() => {

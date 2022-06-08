@@ -1,11 +1,11 @@
 import React from 'react';
-import { Users } from './App';
+import { Movies } from './App';
 import './App.css';
 import ShakaPlayer from 'shaka-player-react';
 import 'shaka-player/dist/controls.css';
 
 interface VideoProps {
-  videos: Array<Users>;
+  videos: Array<Movies>;
 }
 
 export default function Videos(props: VideoProps) {
